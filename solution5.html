@@ -1,0 +1,35 @@
+<div class="b f">
+  <div class="s1 f s"></div>
+  <div class="s2 f s"></div>
+  <div class="s3 f s"></div>
+</div>
+
+
+<style>
+  .f {display: flex;
+    align-items: center;
+    justify-content: center}
+  .b {top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #0B2429;
+    position: absolute}
+  .s {width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background: #F7EC7D;
+    position: absolute}
+  .s1,.s3 {
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+  	background: #F3AC3C}
+   .s2 {
+    border-top-right-radius: 0;
+     background:#998235;z-index: 10}
+  .s1{border-top-right-radius: 0;
+    bottom: 30px; left: 80px;z-index: 100;
+  }
+  .s3 {top: 30px; right: 80px;
+  margin-left: -10%}
+</style>
